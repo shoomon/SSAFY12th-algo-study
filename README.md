@@ -9,11 +9,15 @@ git init
 ```
 
 저장소 연결
-```git remote add origine 저장소 url ```
+```bash
+git remote add origine 저장소 url
+```
 
 ### 업로드 시
 workspace 내 모든 파일을 staging 영역으로 업로드
-```git add .```
+```
+git add .
+```
 
 repository에 업로드 전 임시 저장
 ```git commit -m "message"```
