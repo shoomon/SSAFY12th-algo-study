@@ -9,31 +9,31 @@
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>김수민</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
-    <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>방민규</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
-    <td align="center"><a href="https://github.com/Dobee-Kim"><img src="https://avatars.githubusercontent.com/u/68512221?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/Dobee-Kim"><img src="https://avatars.githubusercontent.com/u/68512221?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>김도희</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-      <td align="center"><a href="https://github.com/hyun0zin"><img src="https://avatars.githubusercontent.com/u/154870548?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/hyun0zin"><img src="https://avatars.githubusercontent.com/u/154870548?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>김현진</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-      <td align="center"><a href="https://github.com/Maxwithjude"><img src="https://avatars.githubusercontent.com/u/141596763?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/Maxwithjude"><img src="https://avatars.githubusercontent.com/u/141596763?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>누구지</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-      <td align="center"><a href="https://github.com/mmmmingb"><img src="https://avatars.githubusercontent.com/u/175905209?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/mmmmingb"><img src="https://avatars.githubusercontent.com/u/175905209?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>누구지2</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-      <td align="center"><a href="https://github.com/PlutoWooSeok"><img src="https://avatars.githubusercontent.com/u/108509935?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/PlutoWooSeok"><img src="https://avatars.githubusercontent.com/u/108509935?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>송우석</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-      <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
       //<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>방민규</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
   </tr>
