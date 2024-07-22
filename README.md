@@ -1,6 +1,12 @@
 # SSAFY12th-algo-study
 ### 2024.07.31~
 ### 알고리즘 마스터가 되는 그날까지 함께 열심히 달려보아요~~!
+
+## 업로드 규칙
+### 파일 명은 '문제 번호'
+
+### Commit Convention
+업로드 날짜-이름
 ## Git 기본 명령어
 
 ### 로컬 폴더 - 깃 연결
@@ -47,9 +53,3 @@ git push origin feature_branch
 ```
 
 * push 후 git hub에서 PR 생성
-
-## 업로드 규칙
-### 파일 명은 '문제 번호'
-
-### Commit Convention
-업로드 날짜-이름
