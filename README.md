@@ -15,38 +15,38 @@ git remote add origine 저장소 url
 ```
 
 ### 업로드 시
-workspace 내 모든 파일을 staging 영역으로 업로드
+* workspace 내 모든 파일을 staging 영역으로 업로드
 ```
 git add .
 ```
 
-repository에 업로드 전 임시 저장
+* repository에 업로드 전 임시 저장
 ```
 git commit -m "message"
 ```
 
-push할 branch 설정
+* push할 branch 설정
 ```
 git push --set-upstream origin master
 ```
 
-repository에 업로드
+* repository에 업로드
 ```
 git push origine master
 ```
 
 ### branch 생성 후 업로드 - PR 생성
-branch 생성
+* branch 생성
 ```
 git checkout -b branch name
 ```
 
-새로운 branch에 push - add, commit 후
+* 새로운 branch에 push - add, commit 후
 ```
 git push origin feature_branch
 ```
 
-push 후 git hub에서 PR 생성
+* push 후 git hub에서 PR 생성
 
 ## 업로드 규칙
 ### 파일 명은 '문제 번호'
