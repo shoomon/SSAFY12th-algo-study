@@ -4,7 +4,9 @@
 
 ### 로컬 폴더 - 깃 연결
 git으로 관리할 가장 상위 폴더 위치에 연결
-```git init```
+```bash
+git init
+```
 
 저장소 연결
 ```git remote add origine 저장소 url ```
