@@ -20,20 +20,30 @@ git add .
 ```
 
 repository에 업로드 전 임시 저장
-```git commit -m "message"```
+```
+git commit -m "message"
+```
 
 push할 branch 설정
-```git push --set-upstream origin master```
+```
+git push --set-upstream origin master
+```
 
 repository에 업로드
-```git push origine master```
+```
+git push origine master
+```
 
 ### branch 생성 후 업로드 - PR 생성
 branch 생성
-```git checkout -b branch name```
+```
+git checkout -b branch name
+```
 
 새로운 branch에 push - add, commit 후
-```git push origin feature_branch```
+```
+git push origin feature_branch
+```
 
 push 후 git hub에서 PR 생성
 
