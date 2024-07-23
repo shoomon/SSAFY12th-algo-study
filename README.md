@@ -54,7 +54,7 @@
 #### 'BOJ' or 'SWEA' + '문제 번호' + '이름'
 
 ### Commit Convention :label:
-#### 업로드 날짜-이름
+#### 업로드 날짜
 
 ---
 
