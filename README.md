@@ -25,7 +25,7 @@
 
   <td align="center"><a href="https://github.com/Maxwithjude"><img src="https://avatars.githubusercontent.com/u/141596763?v=4" width="100px;" alt=""/><br />
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
-      <br /><sub><b>누구지</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
+      <br /><sub><b>이동현</b></sub></a><br /><sub><b>소개</b><br>ISTP</br></sub></td>
 
   <td align="center"><a href="https://github.com/mmmmingb"><img src="https://avatars.githubusercontent.com/u/175905209?v=4" width="100px;" alt=""/><br />
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
