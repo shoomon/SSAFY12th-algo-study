@@ -52,7 +52,7 @@
 #### 파일 명은 'BOJ' or 'SWEA' + '문제 번호'
 
 ### Commit Convention
-업로드 날짜-이름
+#### 업로드 날짜-이름
 
 ## 학습 가이드 :pencil:
 ### 필수 학습 :fire:
