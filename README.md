@@ -49,7 +49,8 @@
 
 
 ## 업로드 규칙 :book:
-#### 파일 명은 'BOJ' or 'SWEA' + '문제 번호'
+### 파일 명
+#### 'BOJ' or 'SWEA' + '문제 번호'
 
 ### Commit Convention
 #### 업로드 날짜-이름
