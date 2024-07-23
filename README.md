@@ -50,7 +50,7 @@
 
 
 ## 업로드 규칙 :book:
-### 파일 명 :page_facing_up:
+### 파일 명 :file_folder:
 #### 'BOJ' or 'SWEA' + '문제 번호'
 
 ### Commit Convention :label:
