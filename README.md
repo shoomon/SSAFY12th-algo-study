@@ -50,7 +50,7 @@
 
 
 ## 업로드 규칙 :book:
-### 파일 명 :file_folder:
+### 파일 명 :page_with_curl:
 #### 'BOJ' or 'SWEA' + '문제 번호'
 
 ### Commit Convention :label:
