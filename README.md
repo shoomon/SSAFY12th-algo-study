@@ -113,7 +113,7 @@ git push origine master
 git checkout -b branch name
 ```
 
-* 새로운 branch에 push - add, commit 후
+* 새로운 branch에 push (add, commit 후 수행)
 ```
 git push origin feature_branch
 ```
