@@ -8,7 +8,7 @@
 <table>
   <tr>
   <td align="center"><a href="https://github.com/shoomon"><img src="https://avatars.githubusercontent.com/u/96561442?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kate010117" widt="100px">
       <br /><sub><b>김수민</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
   <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
