@@ -1,7 +1,7 @@
 #  :star2: SSAFY12th-algo-study :star2:
 ### 2024.07.31~
 #### 알고리즘 마스터가 되는 그날까지 함께 열심히 달려보아요~~! :runner: 
-### 스터디원 소개
+### 스터디원 소개 :technologist:
 <br/>
 <br/>
 
