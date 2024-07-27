@@ -51,7 +51,7 @@
 
 ## 업로드 규칙 :book:
 ### 파일 명 :page_with_curl:
-#### 'BOJ' or 'SWEA' + '문제 번호' + '이름'
+#### 'BOJ' or 'SWEA' + '문제 번호_이름'
 
 ### Commit Convention :label:
 #### 업로드 날짜 'YY.MM.DD'
