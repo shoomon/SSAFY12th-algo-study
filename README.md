@@ -36,7 +36,7 @@
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>송우석</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
-  <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
+  <td align="center"><a href="https://github.com/12ing"><img src="https://avatars.githubusercontent.com/u/86471461?v=4" width="100px;" alt=""/><br />
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
       <br /><sub><b>이미림</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
   </tr>
