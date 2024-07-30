@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class BOJ_4375 {
+public class BOJ_4375_bmk {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		List<Integer> nList = new ArrayList<>();
