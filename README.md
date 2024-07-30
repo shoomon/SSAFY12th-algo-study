@@ -12,7 +12,7 @@
       <br /><sub><b>김수민</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
   <td align="center"><a href="https://github.com/bangmq"><img src="https://avatars.githubusercontent.com/u/87954515?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=bangmq" widt="100px">
       <br /><sub><b>방민규</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
   <td align="center"><a href="https://github.com/Dobee-Kim"><img src="https://avatars.githubusercontent.com/u/68512221?v=4" width="100px;" alt=""/><br />
@@ -25,7 +25,7 @@
   </tr>
   <tr>
   <td align="center"><a href="https://github.com/Maxwithjude"><img src="https://avatars.githubusercontent.com/u/141596763?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=inews2432" widt="100px">
       <br /><sub><b>이동현</b></sub></a><br /><sub><b>소개</b><br>ISTP</br></sub></td>
 
   <td align="center"><a href="https://github.com/mmmmingb"><img src="https://avatars.githubusercontent.com/u/175905209?v=4" width="100px;" alt=""/><br />
