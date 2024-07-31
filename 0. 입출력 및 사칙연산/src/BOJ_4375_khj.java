@@ -22,6 +22,8 @@ public class BOJ_4375_khj {
 
 			long multipleNum = 1;
 			int i = 1;
+			
+			
 
 			while (multipleNum % n != 0) {
 //				multipleNum += Math.pow(10, i); // 10의 거듭제곱 (= 10^i) => 시간 초과
