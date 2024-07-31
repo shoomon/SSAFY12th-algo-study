@@ -20,7 +20,7 @@
       <br /><sub><b>김도희</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
   <td align="center"><a href="https://github.com/hyun0zin"><img src="https://avatars.githubusercontent.com/u/154870548?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=koujie11" widt="100px">
       <br /><sub><b>김현진</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
   </tr>
   <tr>
@@ -29,11 +29,11 @@
       <br /><sub><b>이동현</b></sub></a><br /><sub><b>소개</b><br>ISTP</br></sub></td>
 
   <td align="center"><a href="https://github.com/mmmmingb"><img src="https://avatars.githubusercontent.com/u/175905209?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=hogik1027" widt="100px">
       <br /><sub><b>박민경</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
   <td align="center"><a href="https://github.com/PlutoWooSeok"><img src="https://avatars.githubusercontent.com/u/108509935?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=plutoxxx1014" widt="100px">
       <br /><sub><b>송우석</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
   <td align="center"><a href="https://github.com/12ing"><img src="https://avatars.githubusercontent.com/u/86471461?v=4" width="100px;" alt=""/><br />
@@ -51,14 +51,46 @@
 
 ## 업로드 규칙 :book:
 ### 파일 명 :page_with_curl:
-#### 'BOJ' or 'SWEA' + '문제 번호_이름'
+### 'BOJ' or 'SWEA'_'문제 번호_이름'
 
-### Commit Convention :label:
-#### 업로드 날짜 'YY.MM.DD'
+<br>
 
----
+## PR 규칙 :label:
+### PR 제목 : [월/주차] 주제_본인 이름(또는 본인 브랜치 이름)_ver
+ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
-## 학습 가이드 :pencil:
+### PR 내용 : pr 템플릿 이용
+
+<br>
+
+## Commit 규칙
+
+### Commit subject : [태그] 문제번호
+- [commit convention] boj(문제번호)
+- 여러 문제 한 번에 commit 시, 문제 번호 다 작성하기 
+
+<br>
+
+| 태그 | 설명 |
+| --- | --- |
+| [solved] | 해결 |
+| [fix] | 수정 |
+| [docs] | 문서 |
+
+
+ex)
+- 1개 업로드 시
+1. Commit subject : `[solved] boj28354` 
+2. Commit subject : `[fix] boj28354` 
+
+
+- 2개 문제 이상 한 번에 올릴 경우, 
+1. Commit subject : `[solved] boj28354, boj13427`
+ 
+
+<br><br>
+
+# 학습 가이드 :pencil:
 ### 필수 학습 :fire:
 * 큐, 덱, 스택, 힙, 해시 등 자료구조를 사용한 알고리즘
 * 이분탐색
@@ -77,6 +109,8 @@
 * 세그먼트 트리
 
 ---
+
+<br>
 
 ## Git 기본 명령어 :computer: 
 
