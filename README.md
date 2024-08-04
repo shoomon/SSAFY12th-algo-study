@@ -16,7 +16,7 @@
       <br /><sub><b>방민규</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
     
   <td align="center"><a href="https://github.com/Dobee-Kim"><img src="https://avatars.githubusercontent.com/u/68512221?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=dorosy555" widt="100px">
       <br /><sub><b>김도희</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
   <td align="center"><a href="https://github.com/hyun0zin"><img src="https://avatars.githubusercontent.com/u/154870548?v=4" width="100px;" alt=""/><br />
