@@ -25,3 +25,4 @@ public class Main {
         System.out.println(N);
     }
 }
+커밋 변경
