@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //백준_4375_1
-public class BOJ4375 {
+public class BOJ_4375_Wooseok {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
