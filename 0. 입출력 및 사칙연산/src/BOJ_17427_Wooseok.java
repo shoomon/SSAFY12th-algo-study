@@ -21,7 +21,6 @@ public class BOJ_17427_Wooseok {
         for (int i = 1; i <= N; i++) {
             g += f[i];
         }
-
         System.out.println(g);
     }
 }
