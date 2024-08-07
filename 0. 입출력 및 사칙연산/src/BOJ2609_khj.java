@@ -1,10 +1,11 @@
-package BOJ_Beginner;
+package AlgoStudy_12;
 
 import java.util.Scanner;
 
 public class BOJ2609_khj {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
 		int N = sc.nextInt();
 		int M = sc.nextInt();
 
@@ -20,18 +21,15 @@ public class BOJ2609_khj {
 		System.out.println(lcm);
 	} // main
 
-	// 유클리드 호제법 (재귀함수) 
+	// 유클리드 호제법 (재귀함수)
 	// GCD(a,b) = GCD(b,r)
 	// a와 b의 최대 공약수는 b와 r의 최대 공약수와 같다.
 	private static int GCD(int a, int b) {
-		int r = a % b; // 두 수의 나머지
-		while (r != 0) {
-			a = b;
-			b = r;
-			GCD(a, b);
+		if (b == 0) {
+			return a;
+		} else {
+			return GCD(b, a % b); // 재귀함수 호출
 		}
-		return b;
-
-	}
+	} // GCD
 
 }

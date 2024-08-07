@@ -1,8 +1,8 @@
-package BOJ_Beginner;
+package AlgoStudy_12;
 
 import java.util.Scanner;
 
-public class BOJ_1978_khj {
+public class BOJ1978_khj {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
