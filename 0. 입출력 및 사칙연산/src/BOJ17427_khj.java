@@ -17,7 +17,7 @@ public class BOJ17427_khj {
 //		sumFunc(N);
 
 		// g(x) 값 구하기
-		int ans = 0;
+		long ans = 0;
 		for (int i = 1; i <= N; i++) {
 			ans += sumFunc(i);
 		}
@@ -25,10 +25,11 @@ public class BOJ17427_khj {
 
 	}
 
-	static int sumFunc(int A) {
+	// f(N) 구하는 메서드
+	static long sumFunc(int A) {
 		// f(N) 먼저 구하기
 		// f(N) = sum
-		int sum = 0;
+		long sum = 0;
 		for (int i = 1; i <= A; i++) {
 			if (A % i == 0) {
 				sum += i;
