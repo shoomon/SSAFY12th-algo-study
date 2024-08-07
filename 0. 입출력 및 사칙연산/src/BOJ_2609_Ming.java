@@ -1,4 +1,4 @@
-
+package Week2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class BOJ_2609_Ming {
 		List<Integer> div1 = new ArrayList<>();
 		List<Integer> div2 = new ArrayList<>();
 		
-		// 첫번쨰 숫자 약수 리스트 뽑기
+		// 첫번째 숫자 약수 리스트 뽑기
 		for (int i=1; i<=num1; i++) {
 			if (num1%i == 0) {
 				div1.add(i);
@@ -38,7 +38,7 @@ public class BOJ_2609_Ming {
 		for (int i=div1.size()-1; i>=0; i--) {
 			for (int j=div2.size()-1; j>=0; j--) {
 				if (div1.get(i).equals(div2.get(j))) {
-					// 같은
+					// ==은 new로 만들어서 같은 수일 때 오류남
 					max = div1.get(i);
 					break loop;
 				}
