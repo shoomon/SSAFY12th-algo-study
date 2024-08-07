@@ -49,3 +49,46 @@ public class Main5 {
 }
 }
 ```
+수정코드
+
+public class Main5 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while (true) {
+            int n = Integer.parseInt(br.readLine());
+            if (n == 0) break;
+            
+            ArrayList<Integer> li = new ArrayList<>();
+            for (int i = 2; i <= n; i++) {
+                if (isPrime(i)) {
+                    li.add(i);
+                }
+            }
+
+            boolean found = false;
+            for (int i = 0; i < li.size(); i++) {
+                for (int j = i; j < li.size(); j++) {
+                    if (n == li.get(i) + li.get(j)) {
+                        System.out.println(n + " = " + li.get(i) + " + " + li.get(j));
+                        found = true;
+                        break;
+                    }
+                }
+                if (found) break;
+            }
+            if (!found) {
+                System.out.println("Goldbach's conjecture is wrong.");
+            }
+        }
+    }
+    
+    public static boolean isPrime(int num) {
+        if (num < 2) return false;
+        if (num == 2 || num == 3 || num == 5) return true;
+        if (num % 2 == 0 || num % 3 == 0 || num % 5 == 0) return false;
+        for (int i = 7; i * i <= num; i += 2) {
+            if (num % i == 0) return false;
+        }
+        return true;
+    }
+}
