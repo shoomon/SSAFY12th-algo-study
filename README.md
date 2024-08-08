@@ -84,12 +84,12 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
 ~ex)~
 ~- 1개 업로드 시~
-~1. Commit subject : `[solved] boj28354` ~
-~2. Commit subject : `[fix] boj28354` ~
+~1.Commit subject:`[solved] boj28354`~
+~2.Commit subject:`[fix] boj28354`~
 
 
-~- 2개 문제 이상 한 번에 올릴 경우, ~
-~1. Commit subject : `[solved] boj28354, boj13427`~
+~- 2개 문제 이상 한 번에 올릴 경우,~
+~1.Commit subject:`[solved] boj28354, boj13427`~
  
 
 ---
