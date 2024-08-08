@@ -59,7 +59,7 @@
 
 <br>
 
-## PR 규칙 :label:
+## PR 규칙
 ### PR 제목 : [월/주차] 주제_본인 이름(또는 본인 브랜치 이름)_ver
 ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
@@ -67,7 +67,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
 <br>
 
-## Commit 규칙
+## Commit 규칙 :label:
 
 ### ~Commit subject : [태그] 문제번호~
 - ~[commit convention] boj(문제번호)~
