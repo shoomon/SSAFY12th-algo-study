@@ -55,7 +55,7 @@
 ## 업로드 규칙 :book:
 ### 파일 명 :page_with_curl:
 ### 'BOJ' or 'SWEA'_'문제 번호_이름'
-- **파일명 "`BOJ1123_soomin`"처럼**  :rainbow: **양식 통일** :rainbow:<br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
+- **파일명 "`BOJ1123_soomin`"처럼**  :rainbow: **양식 통일** :rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
 
 <br>
 
