@@ -55,6 +55,7 @@
 ## 업로드 규칙 :book:
 ### 파일 명 :page_with_curl:
 ### 'BOJ' or 'SWEA'_'문제 번호_이름'
+- 파일명 "BOJ1123_soomin"처럼 양식 통일<br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
 
 <br>
 
@@ -68,10 +69,11 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
 ## Commit 규칙
 
-### Commit subject : [태그] 문제번호
-- [commit convention] boj(문제번호)
-- 파일명 "BOJ1123_soomin"처럼 양식 통일<br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
-- 여러 문제 한 번에 commit 시, 문제 번호 다 작성하기
+### ~Commit subject : [태그] 문제번호~
+- ~[commit convention] boj(문제번호)~
+- ~여러 문제 한 번에 commit 시, 문제 번호 다 작성하기~
+<br>
+~### Commit Convention: [solved/unsolved]YY.MM.DD~
 
 <br>
 
