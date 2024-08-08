@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //백준_1037_약수
-public class BOJ1037 {
+public class BOJ_1037_Wooseok {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
