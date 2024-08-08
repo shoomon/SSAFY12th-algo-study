@@ -73,7 +73,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 - ~[commit convention] boj(문제번호)~
 - ~여러 문제 한 번에 commit 시, 문제 번호 다 작성하기~
 <br>
-### ~Commit Convention: [solved/unsolved]YY.MM.DD~
+### ~ Commit Convention: [solved/unsolved]YY.MM.DD ~
 
 <br>
 
