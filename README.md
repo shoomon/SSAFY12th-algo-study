@@ -126,8 +126,8 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
     ```bash
     git checkout [본인 브랜치 이름]
     ```
-* main 브랜치와 본인 브랜치 모두 pull 받은 후 push하기
-  pull 받으려는 브랜지로 이동 후 pull 받아야 합니다.
+* main 브랜치와 본인 브랜치 모두 pull 받은 후 push하기<br>
+  pull 받으려는 브랜치로 이동 후 pull 받아야 합니다.
   ```bash
   git pull origin [작업중인 브랜치 명]
   ```
