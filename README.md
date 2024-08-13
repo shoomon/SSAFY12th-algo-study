@@ -48,6 +48,11 @@
 
 
 ## 업로드 규칙 :book:
+### 폴더 명 :file_folder:
+### 'BOJ' or 'SWEA'_'문제 번호'
+문제 유형 폴더 하위 폴더로 문제별 폴더 생성 후 폴더에 소스파일 업로드!
+ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin
+
 ### 파일 명 :page_with_curl:
 ### 'BOJ' or 'SWEA'_'문제 번호_이름'
 - **파일명 "`BOJ1123_soomin`"처럼**  :rainbow:**양식 통일**:rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
@@ -112,6 +117,24 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 * 세그먼트 트리
 
 ---
+## Git 충돌을 피하기 위한 몇 가지 주의사항!
+* 본인 branch에서 작업하고 있는 게 맞는지 확인하기
+  ```bash
+  git branch
+  ```
+  * 본인 브랜치가 아니라면
+    ```bash
+    git checkout [본인 브랜치 이름]
+    ```
+* pull 받은 후 push하기
+  ```bash
+  git pull origin [작업중인 브랜치 명]
+  ```
+* PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기
+  **반드시 본인 브랜치 위치에서**
+  ```branch
+  git merge main
+  ```
 
 ## Git 기본 명령어 :computer: 
 
