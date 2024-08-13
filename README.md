@@ -131,7 +131,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
   git pull origin [작업중인 브랜치 명]
   ```
 * PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기<br>
-  :mag:**main 브랜치 pull**:mag: **받았는지 확인 후**<br>
+  :mag:**main 브랜치 pull**:mag: 받았는지 확인 후<br>
   **반드시 본인 브랜치 위치에서**
   ```branch
   git merge main
