@@ -117,7 +117,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 * 세그먼트 트리
 
 ---
-## Git 충돌을 피하기 위한 몇 가지 주의사항!
+## Git 충돌을 피하기 위한 몇 가지 주의사항! :warning:
 * 본인 branch에서 작업하고 있는 게 맞는지 확인하기
   ```bash
   git branch
@@ -131,7 +131,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
   git pull origin [작업중인 브랜치 명]
   ```
 * PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기<br>
-  **main 브랜치 pull 받았는지 확인 후**<br>
+  :mag:**main 브랜치 pull**:mag: **받았는지 확인 후**<br>
   **반드시 본인 브랜치 위치에서**
   ```branch
   git merge main
