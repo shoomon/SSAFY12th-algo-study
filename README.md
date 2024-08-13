@@ -49,12 +49,12 @@
 
 ## 업로드 규칙 :book:
 ### 폴더 명 :file_folder:
-### 'BOJ' or 'SWEA'_'문제 번호'
+### 'BOJ' or 'SWEA'+ '문제 번호'
 문제 유형 폴더 하위 폴더로 **문제별 폴더 생성 후** 폴더에 소스파일 업로드! <br>
 ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin.java
 
 ### 파일 명 :page_with_curl:
-### 'BOJ' or 'SWEA'_'문제 번호_이름'
+### 'BOJ' or 'SWEA'+ '문제 번호_이름'
 - **파일명 "`BOJ1123_soomin`"처럼**  :rainbow:**양식 통일**:rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
 
 ### 코드 🌠주석🌠 작성하기!
