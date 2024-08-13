@@ -51,7 +51,7 @@
 ### 폴더 명 :file_folder:
 ### 'BOJ' or 'SWEA'_'문제 번호'
 문제 유형 폴더 하위 폴더로 **문제별 폴더 생성 후** 폴더에 소스파일 업로드! <br>
-ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin
+ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin.java
 
 ### 파일 명 :page_with_curl:
 ### 'BOJ' or 'SWEA'_'문제 번호_이름'
