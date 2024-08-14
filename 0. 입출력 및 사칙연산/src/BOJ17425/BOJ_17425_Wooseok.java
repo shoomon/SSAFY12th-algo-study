@@ -1,5 +1,5 @@
 import java.io.*;
-
+	
 public class BOJ_17425_Wooseok {
     static final int MAX = 1000000;
     static long[] f = new long[MAX + 1];
