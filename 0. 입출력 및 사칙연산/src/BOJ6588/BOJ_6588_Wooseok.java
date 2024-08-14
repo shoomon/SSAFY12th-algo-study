@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+	
 public class BOJ_6588_Wooseok {
     static final int MAX = 1000001;
 
