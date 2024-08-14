@@ -61,7 +61,7 @@ ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin.java
 
 <br>
 
-## PR 규칙
+## PR 규칙 :twisted_rightwards_arrows:
 ### PR 제목 : [월/주차] 주제_본인 이름(또는 본인 브랜치 이름)_ver
 ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
