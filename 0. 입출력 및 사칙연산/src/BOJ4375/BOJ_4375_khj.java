@@ -1,5 +1,5 @@
 package BOJ_0_입출력및사칙연산;
-
+	
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
