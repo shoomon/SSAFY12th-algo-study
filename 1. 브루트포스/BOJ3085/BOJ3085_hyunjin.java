@@ -26,19 +26,25 @@ public class BOJ3085_hyunjin {
 					arr[i][j] = arr[i][j + 1];
 					arr[i][j + 1] = tmp;
 				}
+				
 				max = Math.max(max, sum());
+				
+				// 배열 다시 초기화
+				char tmp2 = arr[i][j];
+				arr[i][j] = arr[i][j + 1];
+				arr[i][j + 1] = tmp2;
 			}
 		}
 		System.out.println(max);
 
-//		// TEST
-//		for (int i = 0; i < N; i++) {
-//			for (int j = 0; j < N; j++) {
-//				System.out.print(arr[i][j] + " ");
-//			}
-//			System.out.println();
-//		}
-		
+		// TEST
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+
 	} // main
 
 	static int sum() {
