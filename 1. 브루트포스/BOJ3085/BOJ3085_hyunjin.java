@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class BOJ1476_hyunjin {
+// BOJ3085 사탕게임
+public class BOJ3085_hyunjin {
 	static int N;
 	static int max = -1;
 	static char[][] arr;
