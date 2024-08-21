@@ -26,7 +26,7 @@ public class BOJ1107_wooseok {
         int answer = Math.abs(channel - 100); // 초기값으로 100에서 목표 채널까지의 거리를 설정
         StringBuffer sb = new StringBuffer(); // 버튼을 누를 때 생성되는 숫자를 저장할 StringBuffer를 생성
 
-        for(int i = 0; i < 1000000; i++) { // 0부터 999,999까지 반복
+        for(int i = 0; i < 500_000; i++) { // 0부터 999,999까지 반복
             sb.append(i); // StringBuffer에 i 값 추가
             int length = sb.length(); // 현재 StringBuffer의 길이를 저장
             boolean chk = false; // 현재 숫자에서 고장난 버튼이 있는지 확인하기 위한 플래그
