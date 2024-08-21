@@ -1,0 +1,85 @@
+package list;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main1 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+        int n = Integer.parseInt(br.readLine());
+        char arr[][] = new char[n][n];
+        
+        // char 배열 입력
+        for (int i = 0; i < n; i++) {
+            String str = br.readLine();
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = str.charAt(j);
+            }
+        }
+
+        int max = 0;
+
+        // 모든 위치에서 상하좌우 교환 후 최대 연속 길이 계산
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                // 오른쪽과 교환
+                if (j + 1 < n) {
+                    swap(arr, i, j, i, j + 1);
+                    max = Math.max(max, findMaxLength(arr, n));
+                    swap(arr, i, j, i, j + 1); // 원상복구
+                }
+                
+                // 아래쪽과 교환
+                if (i + 1 < n) {
+                    swap(arr, i, j, i + 1, j);
+                    max = Math.max(max, findMaxLength(arr, n));
+                    swap(arr, i, j, i + 1, j); // 원상복구
+                }
+            }
+        }
+
+        System.out.println(max);
+    }
+
+    // 두 위치의 값을 교환하는 메서드
+    private static void swap(char[][] arr, int r1, int c1, int r2, int c2) {
+        char temp = arr[r1][c1];
+        arr[r1][c1] = arr[r2][c2];
+        arr[r2][c2] = temp;
+    }
+
+    // 배열에서 행과 열의 최대 연속 부분 길이를 찾는 메서드
+    private static int findMaxLength(char[][] arr, int n) {
+        int max = 0;
+
+        // 행 검사
+        for (int i = 0; i < n; i++) {
+            int cnt = 1;
+            for (int j = 1; j < n; j++) {
+                if (arr[i][j] == arr[i][j - 1]) {
+                    cnt++;
+                } else {
+                    cnt = 1;
+                }
+                max = Math.max(max, cnt);
+            }
+        }
+
+        // 열 검사
+        for (int j = 0; j < n; j++) {
+            int cnt = 1;
+            for (int i = 1; i < n; i++) {
+                if (arr[i][j] == arr[i - 1][j]) {
+                    cnt++;
+                } else {
+                    cnt = 1;
+                }
+                max = Math.max(max, cnt);
+            }
+        }
+
+        return max;
+    }
+}
