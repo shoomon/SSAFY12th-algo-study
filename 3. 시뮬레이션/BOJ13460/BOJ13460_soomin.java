@@ -6,7 +6,7 @@ import java.util.*;
 //구현 시간: 2시간 30분 -> return 빼먹지 말기, 공 굴리는 조건식
 //메모리: 19152 kb
 //시간: 704 ms
-//
+
 public class Main {
     static int N,M, answer;
     static char[][] map, simul;
