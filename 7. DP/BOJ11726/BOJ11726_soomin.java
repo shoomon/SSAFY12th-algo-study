@@ -3,8 +3,8 @@ import java.io.*;
 //날짜 24.09.25
 //설계 시간: 5분
 //구현 시간: 5분
-//메모리: kb
-//시간: ms
+//메모리: 14432 kb
+//시간: 100 ms
 public class Main {
     public static void main(String args[]) throws Exception
     {
