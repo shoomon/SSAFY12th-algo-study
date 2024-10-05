@@ -137,6 +137,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
   ```branch
   git merge main
   ```
+  merge 후 본인 브랜치에 push해야 github에 변경사항 반영됩니다.
 
 ## Git 기본 명령어 :computer: 
 
