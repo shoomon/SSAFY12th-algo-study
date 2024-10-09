@@ -37,15 +37,10 @@
       <br /><sub><b>송우석</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
 
   <td align="center"><a href="https://github.com/12ing"><img src="https://avatars.githubusercontent.com/u/86471461?v=4" width="100px;" alt=""/><br />
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=catbirdseat" widt="100px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=lll123kong" widt="100px">
       <br /><sub><b>이미림</b></sub></a><br /><sub><b>소개</b><br>MBTI</br></sub></td>
   </tr>
 </table><br/>
-
-
-<br/>
-
-# ~~~ 스터디 규칙 적고싶어요 ~~~
 
 <br/>
 
@@ -53,12 +48,20 @@
 
 
 ## 업로드 규칙 :book:
+### 폴더 명 :file_folder:
+### 'BOJ' or 'SWEA'+ '문제 번호'
+문제 유형 폴더 하위 폴더로 **문제별 폴더 생성 후** 폴더에 소스파일 업로드! <br>
+ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin.java
+
 ### 파일 명 :page_with_curl:
-### 'BOJ' or 'SWEA'_'문제 번호_이름'
+### 'BOJ' or 'SWEA'+ '문제 번호_이름'
+- **파일명 "`BOJ1123_soomin`"처럼**  :rainbow:**양식 통일**:rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
+
+### 코드 🌠주석🌠 작성하기!
 
 <br>
 
-## PR 규칙 :label:
+## PR 규칙 :twisted_rightwards_arrows:
 ### PR 제목 : [월/주차] 주제_본인 이름(또는 본인 브랜치 이름)_ver
 ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
@@ -66,11 +69,13 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
 <br>
 
-## Commit 규칙
+## Commit 규칙 :label:
 
-### Commit subject : [태그] 문제번호
-- [commit convention] boj(문제번호)
-- 여러 문제 한 번에 commit 시, 문제 번호 다 작성하기 
+### ~Commit subject : [태그] 문제번호~
+- ~[commit convention] boj(문제번호)~
+- ~여러 문제 한 번에 commit 시, 문제 번호 다 작성하기~
+
+### ~Commit Convention: [solved/unsolved]YY.MM.DD~
 
 <br>
 
@@ -81,14 +86,14 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 | [docs] | 문서 |
 
 
-ex)
-- 1개 업로드 시
-1. Commit subject : `[solved] boj28354` 
-2. Commit subject : `[fix] boj28354` 
+~ex)~
+~- 1개 업로드 시~
+~1.Commit subject:`[solved] boj28354`~
+~2.Commit subject:`[fix] boj28354`~
 
 
-- 2개 문제 이상 한 번에 올릴 경우, 
-1. Commit subject : `[solved] boj28354, boj13427`
+~- 2개 문제 이상 한 번에 올릴 경우,~
+~1.Commit subject:`[solved] boj28354, boj13427`~
  
 
 ---
@@ -112,6 +117,27 @@ ex)
 * 세그먼트 트리
 
 ---
+## Git 충돌을 피하기 위한 몇 가지 주의사항! :warning:
+* 본인 branch에서 작업하고 있는 게 맞는지 확인하기
+  ```bash
+  git branch
+  ```
+  * 본인 브랜치가 아니라면
+    ```bash
+    git checkout [본인 브랜치 이름]
+    ```
+* main 브랜치와 본인 브랜치 모두 pull 받은 후 push하기<br>
+  pull 받으려는 브랜치로 이동 후 pull 받아야 합니다.
+  ```bash
+  git pull origin [작업중인 브랜치 명]
+  ```
+* PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기<br>
+  :mag:**main 브랜치 pull**:mag: 받았는지 확인 후<br>
+  **반드시 본인 브랜치 위치에서**
+  ```branch
+  git merge main
+  ```
+  **로컬에서 merge 후 본인 브랜치에 push**해야 github에 변경사항 반영됩니다.
 
 ## Git 기본 명령어 :computer: 
 
