@@ -1,27 +1,28 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
-
-public class Main2 {
+	
+public class Main4 {
 	public static void main(String[] args) throws IOException{
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
-		
-		int d = gcd(n, m);
-		System.out.println(d);
-		System.out.println(n * m / d);
+		ArrayList<Integer> li = new ArrayList<>();
+		for(int i = n; i <= m; i++) {
+			if((i % 2 != 0 && i % 3 != 0 && i % 5 != 0) || i ==2 || i == 5 
+					|| i == 3) {
+				li.add(i);
+			}
+		}
+		for(int i = 0; i <li.size(); i++) {
+			System.out.println(li.get(i));
+		}
 		
 }
-	public static int gcd(int n, int m) {
-		if(n % m == 0)
-			return m;
-		
-		return gcd(m, n % m);
-	}
-	
 }
+
+ECLIPSE상에서 잘 되는데 백준에서 출력초과 오류가 발생한다. 
