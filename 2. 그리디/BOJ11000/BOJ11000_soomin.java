@@ -7,6 +7,7 @@ import java.io.*;
 //시간: 600 ms
 //끝나는 시간이 빠른 순으로 정렬
 //시작시간 <= 끝나는 시간인 강의가 있는 경우 두 강의를 union하여 같은 집합에 배정
+
 public class Main {
     static int N;
     static int[] parent;
