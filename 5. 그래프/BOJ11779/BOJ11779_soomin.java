@@ -2,6 +2,8 @@ import java.util.*;
 import java.io.*;
 
 //24.10.28
+//46076 kb
+//320 ms
 //다틱스트라
 //다익스트라 다시 공부해야 할 듯
 public class Main {
