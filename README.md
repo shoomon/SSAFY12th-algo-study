@@ -1,7 +1,11 @@
-#  :star2: SSAFY12th-algo-study :star2:
+# :star2: SSAFY12th-algo-study :star2:
+
 ### 2024.07.31~
-#### 알고리즘 마스터가 되는 그날까지 함께 열심히 달려보아요~~! :runner: 
+
+#### 알고리즘 마스터가 되는 그날까지 함께 열심히 달려보아요~~!! :runner:
+
 ### 스터디원 소개 :technologist:
+
 <br/>
 <br/>
 
@@ -46,24 +50,30 @@
 
 ---
 
-
 ## 업로드 규칙 :book:
+
 ### 폴더 명 :file_folder:
+
 ### 'BOJ' or 'SWEA'+ '문제 번호'
+
 문제 유형 폴더 하위 폴더로 **문제별 폴더 생성 후** 폴더에 소스파일 업로드! <br>
 ex) 0.입출력 및 사칙연산/BOJ1234/BOJ1234_soomin.java
 
 ### 파일 명 :page_with_curl:
-### 'BOJ' or 'SWEA'+ '문제 번호_이름'
-- **파일명 "`BOJ1123_soomin`"처럼**  :rainbow:**양식 통일**:rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
+
+### 'BOJ' or 'SWEA'+ '문제 번호\_이름'
+
+- **파일명 "`BOJ1123_soomin`"처럼** :rainbow:**양식 통일**:rainbow: :pray: <br>(언더바 위치 통일, 이름 -> 이름만 적기, 소문자 통일, 초성X)
 
 ### 코드 🌠주석🌠 작성하기!
 
 <br>
 
 ## PR 규칙 :twisted_rightwards_arrows:
-### PR 제목 : [월/주차] 주제_본인 이름(또는 본인 브랜치 이름)_ver
-ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
+
+### PR 제목 : [월/주차] 주제\_본인 이름(또는 본인 브랜치 이름)\_ver
+
+ex) [8월 1주차] 0.입출력 및 사칙연산\_김현진\_ver2
 
 ### PR 내용 : pr 템플릿 이용
 
@@ -72,6 +82,7 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 ## Commit 규칙 :label:
 
 ### ~Commit subject : [태그] 문제번호~
+
 - ~[commit convention] boj(문제번호)~
 - ~여러 문제 한 번에 commit 시, 문제 번호 다 작성하기~
 
@@ -79,59 +90,62 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
 
 <br>
 
-| 태그 | 설명 |
-| --- | --- |
+| 태그     | 설명 |
+| -------- | ---- |
 | [solved] | 해결 |
-| [fix] | 수정 |
-| [docs] | 문서 |
-
+| [fix]    | 수정 |
+| [docs]   | 문서 |
 
 ~ex)~
 ~- 1개 업로드 시~
 ~1.Commit subject:`[solved] boj28354`~
 ~2.Commit subject:`[fix] boj28354`~
 
-
 ~- 2개 문제 이상 한 번에 올릴 경우,~
 ~1.Commit subject:`[solved] boj28354, boj13427`~
- 
 
 ---
 
 # 학습 가이드 :pencil:
-### 필수 학습 :fire:
-* 큐, 덱, 스택, 힙, 해시 등 자료구조를 사용한 알고리즘
-* 이분탐색
-* 누적합, 에라토스테네스의 체
-* 구현, 시뮬레이션
-* DFS, BFS
-* 백트래킹, DP
 
-### 학습 권장  :exclamation:
-* 최단거리: 다익스트라, 플로이드-와샬
-* MST: 유니온 파인드, 크루스칼, 프림
-* 수열: LCS, LIS
+### 필수 학습 :fire:
+
+- 큐, 덱, 스택, 힙, 해시 등 자료구조를 사용한 알고리즘
+- 이분탐색
+- 누적합, 에라토스테네스의 체
+- 구현, 시뮬레이션
+- DFS, BFS
+- 백트래킹, DP
+
+### 학습 권장 :exclamation:
+
+- 최단거리: 다익스트라, 플로이드-와샬
+- MST: 유니온 파인드, 크루스칼, 프림
+- 수열: LCS, LIS
 
 ### 추가 학습 :white_check_mark:
-* 비트마스킹
-* 세그먼트 트리
+
+- 비트마스킹
+- 세그먼트 트리
 
 ---
+
 ## Git 충돌을 피하기 위한 몇 가지 주의사항! :warning:
-* 본인 branch에서 작업하고 있는 게 맞는지 확인하기
+
+- 본인 branch에서 작업하고 있는 게 맞는지 확인하기
   ```bash
   git branch
   ```
-  * 본인 브랜치가 아니라면
+  - 본인 브랜치가 아니라면
     ```bash
     git checkout [본인 브랜치 이름]
     ```
-* main 브랜치와 본인 브랜치 모두 pull 받은 후 push하기<br>
+- main 브랜치와 본인 브랜치 모두 pull 받은 후 push하기<br>
   pull 받으려는 브랜치로 이동 후 pull 받아야 합니다.
   ```bash
   git pull origin [작업중인 브랜치 명]
   ```
-* PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기<br>
+- PR 생성 전에 main 브랜치를 본인 브랜치에 merge하기<br>
   :mag:**main 브랜치 pull**:mag: 받았는지 확인 후<br>
   **반드시 본인 브랜치 위치에서**
   ```branch
@@ -139,49 +153,60 @@ ex) [8월 1주차] 0.입출력 및 사칙연산_김현진_ver2
   ```
   **로컬에서 merge 후 본인 브랜치에 push**해야 github에 변경사항 반영됩니다.
 
-## Git 기본 명령어 :computer: 
+## Git 기본 명령어 :computer:
 
 ### 로컬 폴더 - 깃 연결
-* git으로 관리할 가장 상위 폴더 위치에서 수행
+
+- git으로 관리할 가장 상위 폴더 위치에서 수행
+
 ```bash
 git init
 ```
 
-* 저장소 연결
+- 저장소 연결
+
 ```bash
 git remote add origine 저장소 url
 ```
 
 ### 업로드 시
-* workspace 내 모든 파일을 staging 영역으로 업로드
+
+- workspace 내 모든 파일을 staging 영역으로 업로드
+
 ```
 git add .
 ```
 
-* repository에 업로드 전 임시 저장
+- repository에 업로드 전 임시 저장
+
 ```
 git commit -m "message"
 ```
 
-* push할 branch 설정
+- push할 branch 설정
+
 ```
 git push --set-upstream origin master
 ```
 
-* repository에 업로드
+- repository에 업로드
+
 ```
 git push origine master
 ```
 
 ### branch 생성 후 업로드 - PR 생성
-* branch 생성
+
+- branch 생성
+
 ```
 git checkout -b branch name
 ```
 
-* 새로운 branch에 push (add, commit 후 수행)
+- 새로운 branch에 push (add, commit 후 수행)
+
 ```
 git push origin feature_branch
 ```
 
-* push 후 git hub에서 PR 생성
+- push 후 git hub에서 PR 생성
