@@ -27,10 +27,11 @@ public class 연습_리코쳇로봇_hyunjin {
 		for (int i = 0; i < board.length; i++) {
 			for (int j = 0; j < board[0].length(); j++) {
 				map[i][j] = board[i].charAt(j);
+				// 시작 지점 
 				if (map[i][j] == 'R') {
 					startR = i;
 					startC = j;
-
+				// 도착 지점 
 				} else if (map[i][j] == 'G') {
 					endR = i;
 					endC = j;
