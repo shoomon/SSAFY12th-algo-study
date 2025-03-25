@@ -1,0 +1,74 @@
+// import java.util.*;
+
+// class Solution {
+//     public int solution(int[] order) {
+//         int answer = 0;
+//         //영재 보관 상자 초기화
+//         int arr [] = new int[order.length];
+//         for(int j = 0; j < arr.length; j++){
+//             arr[j] = j+1;
+//         }
+//         //메인 컨베이어 벨트
+//         // Stack<Integer> mainst = new Stack<>();
+//         //보조 컨베이어 벨트
+//         Stack<Integer> subst = new Stack<>();
+//         //1, 2, 3, 4, 5
+//         for(int i = 0; i < order.length; i++){
+//             //일치하지 않으면 일치할 때까지
+//             while(order[i] != arr[i]){
+//                 //sub컨베이어에 넣기
+//                 subst.push(arr[i]);
+//             }
+//             //일치하면 택배기사에게 전달
+//             // mainst.push(arr[i]);
+//             answer++;
+            
+//             //이후에도 일치하지 않으면 sub 컨베이어 확인
+//             if(order[i+1] != subst.peek()){
+//                 return answer;
+//             }else{
+//                 //일치하면 sub컨베이어에서 팝
+//                 int b = subst.pop();
+//                 // mainst.push(b);
+//                 answer++;
+//             }
+//         }
+        
+        
+//         return answer;
+//     }
+// }
+import java.util.*;
+
+class Solution {
+    public int solution(int[] order) {
+        int answer = 0;
+        Stack<Integer> subst = new Stack<>();
+        
+        int currentBox = 1; // 메인 컨베이어에서 꺼낼 박스 번호
+        int index = 0; // order 배열의 현재 인덱스
+        
+        while (index < order.length) {
+            if (currentBox == order[index]) { 
+                // 메인 컨베이어에서 직접 꺼낼 수 있는 경우
+                answer++;
+                index++;
+                currentBox++; // 다음 박스 준비
+            } else if (!subst.isEmpty() && subst.peek() == order[index]) {
+                // 보조 컨베이어에서 꺼낼 수 있는 경우
+                subst.pop();
+                answer++;
+                index++;
+            } else if (currentBox <= order.length) {
+                // 메인 컨베이어에서 꺼낼 박스를 보조 컨베이어로 이동
+                subst.push(currentBox);
+                currentBox++;
+            } else {
+                // 더 이상 처리할 수 없으면 종료
+                break;
+            }
+        }
+
+        return answer;
+    }
+}
